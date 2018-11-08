@@ -3,5 +3,5 @@ require "sinatra/activerecord/rake"
 
 desc 'starts rake console'
 task :console do
-  Pry.console
+  Pry.start
 end
